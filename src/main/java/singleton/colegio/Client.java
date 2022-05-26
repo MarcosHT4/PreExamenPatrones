@@ -31,6 +31,20 @@ public class Client {
         estudiante3.pagarMatricula(129);
         cajero.mostrarSaldoCajero();
 
+        Estudiante estudiante4 = new Estudiante();
+
+        estudiante4.setNombre("Paco");
+
+        estudiante4.pagarMatricula(320);
+        cajero.mostrarSaldoCajero();
+
+        Estudiante estudiante5 = new Estudiante();
+
+        estudiante5.setNombre("John");
+
+        estudiante5.pagarMatricula(588);
+        cajero.mostrarSaldoCajero();
+
     }
 
 }
